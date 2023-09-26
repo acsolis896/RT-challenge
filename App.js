@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ProfileInfo from './ProfileInfo';
 import BirthdaySelection from './BirthdaySelection';
 import GenreSelection from './GenreSelection';
-import Top5MovieSelection from './MovieSelection';
+import MovieSelection from './MovieSelection';
 
 function App() {
   const [step, setStep] = useState(1); // Use a state variable to track the current onboarding step
@@ -17,10 +17,10 @@ function App() {
 
   return (
     <div className="App">
-      {step === 1 && <DisplayNameLocationPhoto />}
+      {step === 1 && <ProfileInfo />}
       {step === 2 && <BirthdaySelection />}
       {step === 3 && <GenreSelection />}
-      {step === 4 && <Top5MovieSelection />}
+      {step === 4 && <MovieSelection />}
       
       {/* Navigation buttons */}
       {step > 1 && (
