@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import DisplayNameLocationPhoto from './DisplayNameLocationPhoto';
+import ProfileInfo from './ProfileInfo';
 import BirthdaySelection from './BirthdaySelection';
 import GenreSelection from './GenreSelection';
-import Top5MovieSelection from './Top5MovieSelection';
+import Top5MovieSelection from './MovieSelection';
 
 function App() {
   const [step, setStep] = useState(1); // Use a state variable to track the current onboarding step
