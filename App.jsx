@@ -18,7 +18,8 @@ function App() {
   return (
     <div className="App">
       <h1>Reel Talk</h1>
-      
+      <p>Testing</p>
+
       {/* {step === 1 && <ProfileInfo />}
       {step === 2 && <BirthdaySelection />}
       {step === 3 && <GenreSelection />}
