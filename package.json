@@ -15,12 +15,7 @@
 		"firebase": "^8.0.0",
     "prop-types": "^15.7.0"
 	},
-	"devDependencies": {
-    "babel-loader": "^8.0.0",
-    "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
-    "@babel/preset-react": "^7.0.0"
-  },
+	"devDependencies": {},
 	"browserslist": {
 		"production": [">0.2%", "not dead", "not op_mini all"],
 		"development": [
