@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function DisplayNameLocationPhoto() {
+function ProfileInfo() {
   const [displayName, setDisplayName] = useState('');
   const [location, setLocation] = useState('');
   const [photoURL, setPhotoURL] = useState('');
@@ -44,4 +44,4 @@ function DisplayNameLocationPhoto() {
   );
 }
 
-export default DisplayNameLocationPhoto;
+export default ProfileInfo;

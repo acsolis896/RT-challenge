@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Top5MovieSelection() {
+function MovieSelection() {
   const [topMovies, setTopMovies] = useState(['', '', '', '', '']);
 
   const handleMovieChange = (e, index) => {
@@ -27,4 +27,4 @@ function Top5MovieSelection() {
   );
 }
 
-export default Top5MovieSelection;
+export default MovieSelection;
