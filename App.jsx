@@ -18,13 +18,14 @@ function App() {
   return (
     <div className="App">
       <h1>Reel Talk</h1>
-      {step === 1 && <ProfileInfo />}
+      
+      {/* {step === 1 && <ProfileInfo />}
       {step === 2 && <BirthdaySelection />}
       {step === 3 && <GenreSelection />}
-      {step === 4 && <MovieSelection />}
+      {step === 4 && <MovieSelection />} */}
       
       {/* Navigation buttons */}
-      {step > 1 && (
+      {/* {step > 1 && (
         <button onClick={prevStep}>Previous</button>
       )}
       {step < 4 && (
@@ -32,7 +33,7 @@ function App() {
       )}
       {step === 4 && (
         <button>Finish</button>
-      )}
+      )} */}
     </div>
   );
 }
